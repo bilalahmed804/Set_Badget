@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Budget</title>
 </head>
 <body>
-    <div>
-        <input type="text" id="input">
-        <button>Set Budget</button>
-    </div>
+    <header>
+        <div class="budget">
+            <h3>Budget</h3>
+            <input type="number" id="input" placeholder="Enter your Budget">
+            <button class="btn fourth" id="set-budget">Set Budget</button>
+        </div>
+        <div class="budget">
+            <h3>Expensive</h3>
+            <input type="text" id="product" placeholder="Enter your Product">
+            <input type="text" id="cost" placeholder="Enter your Cost">
+            <button class="btn fourth" id="expensive"><span></span>Expensive</button>
+        </div>
+    </header>
+
+    <section>
+       <table style="width: 80%;">
+        <tr class="heading">
+            <th>Budget</th>
+            <th>Expensive</th>
+            <th>Remianing Amount</th>
+            </tr>
+       </table>
+    </section>
 </body>
-<script src="app.js"></script>
+<script src="JS/app.js"></script>
 </html>
