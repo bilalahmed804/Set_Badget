@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <input type="text" id="input">
-        <button>Set Budget</button>
-    </div>
-</body>
-<script src="app.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+      <title>Budget</title>
+    </head>
+    <body>
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
+        <header>
+        <div class="style-budget">
+            <div class="budget">
+                <h3>Budget</h3>
+                <input type="number" id="input" placeholder="Enter your Budget" />
+                <button class="btn fourth" id="set-budget">Set Budget</button>
+            </div>
+        </div>
+        <div class="style-budget">
+      <div class="budget budget3">
+        <h3>Expensive</h3>
+        <input type="text" id="product" placeholder="Enter your Product" />
+        <input type="text" id="cost" placeholder="Enter your Cost" />
+        <button class="btn fourth" id="expensive">Expensive</button>
+      </div>
+      </div>
+    </header>
+
+    <section >
+      <ul class="main">
+        <li>Budget</li>
+        <li>Expensive</li>
+        <li>Remianing Amount</li>
+      </ul>
+
+          <div id="input-budget">
+               </div>
+
+      <div id="input-budget02">
+
+      </div>
+    </section>
+  </body>
+  <script src="JS/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </html>
