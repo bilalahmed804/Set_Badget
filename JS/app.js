@@ -1,5 +1,4 @@
 let input = document.getElementById("input")
-<<<<<<< HEAD
 let product = document.getElementById("product")
 
 let cost = document.getElementById("cost");
@@ -87,31 +86,3 @@ function dlt(element){
     let listItem = element.parentNode.parentNode;
     listItem.remove()
 }
-=======
-// console.log(input);
-
-
-let product = document.getElementById("product")
-
-// console.log(product);
-
-let cost = document.getElementById("cost");
-// console.log(cost);
-
-let budget = document.getElementById("set-budget");
-// console.log(budget);
-
-let addExpensive = document.getElementById("expensive");
-// console.log(addExpensive);
-
-let chackNumber = /[0-9]/g
-
-budget.addEventListener("click",function(){
-    if(chackNumber.test(input.value)){
-
-        
-    }else{
-        alert("Enter your Number")
-    }
-})
->>>>>>> e12aab1cccd1c5f5b7410eca95708c6b285aa6a6
